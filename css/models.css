@@ -10,3 +10,9 @@ span {
     background-color: lightgray;
     outline: solid 1px gray;
 }
+
+@media screen and (min-width: 768px) {
+span{
+    background-color: mistyrose;
+}
+}
