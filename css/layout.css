@@ -1,0 +1,91 @@
+.a {
+    height: 75px;
+    line-height: 75px;
+}
+
+.b>span {
+    height: 150px;
+    line-height: 150px;
+}
+
+.c>span {
+    height: 125px;
+    line-height: 125px;
+}
+
+.d>span {
+    height: 125px;
+    line-height: 125px;
+}
+
+.middle-pannels {
+    height: 500px;
+}
+
+.middle-pannels>div {
+    float: left;
+    width: 50%;
+    height: 250px;
+}
+
+.middle-pannels>div>div {
+    height: 250px;
+}
+
+.middle-pannels>div>div>span {
+    height: 250px;
+    line-height: 250px;
+}
+
+.i>span {
+    height: 80px;
+    line-height: 75px;
+}
+
+@media screen and (min-width: 768px) {
+    .a {
+        height: 100px;
+        line-height: 100px;
+    }
+    .b {
+        float: left;
+        width: 20.83%;
+    }
+    .b>span {
+        height: 600px;
+        line-height: 600px;
+    }
+    .desktop-top {
+        float: left;
+        height: 200px;
+        width: 79.17%;
+    }
+    .desktop-top>div {
+        height: 200px;
+        width: 50%;
+        float: left;
+    }
+    .desktop-top>div>span {
+        height: 200px;
+        line-height: 200px;
+    }
+    .middle-pannels {
+        float: left;
+        width: 79.17%;
+        height: 250px;
+    }
+    .middle-pannels>div>div {
+        height: 250px;
+        float: left;
+        width: 50%;
+    }
+    .i {
+        height: 80px;
+        float: left;
+        width: 79.17%;
+    }
+    .i>span {
+        height: 150px;
+        line-height: 150px;
+    }
+}
