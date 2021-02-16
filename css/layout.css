@@ -13,39 +13,80 @@ span {
     height: 75px;
 }
 
-.b > span {
+.b>span {
     height: 150px;
 }
 
-.c > span {
+.c>span {
     height: 125px;
 }
 
-.d > span{
+.d>span {
     height: 125px;
 }
 
-.middle-pannels{
+.middle-pannels {
     height: 500px;
 }
 
-.middle-pannels > div{
+.middle-pannels>div {
     float: left;
     width: 50%;
     height: 250px;
 }
 
-.middle-pannels > div > div {
+.middle-pannels>div>div {
     height: 250px;
 }
 
-.middle-pannels > div > div > span{
+.middle-pannels>div>div>span {
     height: 250px;
 }
 
-.i > span{height: 80px;}
+.i>span {
+    height: 80px;
+}
 
 @media screen and (min-width: 768px) {
-    .a { height: 100px;}
-    
-  }
+    .a {
+        height: 100px;
+    }
+    .b {
+        float: left;
+        width: 20.83%;
+    }
+    .b>span {
+        height: 600px;
+    }
+    .desktop-top {
+        float: left;
+        height: 200px;
+        width: 79.17%;
+    }
+    .desktop-top>div {
+        height: 200px;
+        width: 50%;
+        float: left;
+    }
+    .desktop-top>div>span {
+        height: 200px;
+    }
+    .middle-pannels{
+        float: left;
+        width: 79.17%;
+        height: 250px;
+    }
+    .middle-pannels>div>div {
+        height: 250px;
+        float: left;
+        width: 50%;
+    }
+    .i {
+        height: 80px;
+        float: left;
+        width: 79.17%;
+    }
+    .i>span {
+        height: 150px;
+    }
+}
