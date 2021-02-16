@@ -1,0 +1,51 @@
+body {
+    padding: 15px;
+    text-align: center;
+}
+
+span {
+    display: block;
+    background-color: lightgray;
+    outline: solid 1px gray;
+}
+
+.a {
+    height: 75px;
+}
+
+.b > span {
+    height: 150px;
+}
+
+.c > span {
+    height: 125px;
+}
+
+.d > span{
+    height: 125px;
+}
+
+.middle-pannels{
+    height: 500px;
+}
+
+.middle-pannels > div{
+    float: left;
+    width: 50%;
+    height: 250px;
+}
+
+.middle-pannels > div > div {
+    height: 250px;
+}
+
+.middle-pannels > div > div > span{
+    height: 250px;
+}
+
+.i > span{height: 80px;}
+
+@media screen and (min-width: 768px) {
+    .a { height: 100px;}
+    
+  }
